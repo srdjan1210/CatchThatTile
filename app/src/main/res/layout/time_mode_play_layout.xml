@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="SCORE:"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="0"
+            android:textColor="#b71c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TIME:"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="0"
+            android:textColor="#b71c1c"/>
+
+
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tableTimeMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/timeModeBtn1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/timeModeBtn5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/timeModeBt9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/timeModeBtn13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+
+            <Button
+                android:id="@+id/timeModeBtn16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_border"
+                android:layout_weight="1"
+                android:onClick="btnClicked"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRadioButton">#E91E63</color>
+    <color name="colorPlayButton">#2196F3</color>
+
+    <color name="btnBlue">#039BE5</color>
+    <color name="btnRed">#e53935</color>
+    <color name="btnGreen">#43A047</color>
+    <color name="btnYellow">#FDD835</color>
+    <color name="btnGray">#263238</color>
+</resources>

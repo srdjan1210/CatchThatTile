@@ -1,0 +1,7 @@
+<resources>
+    <string name="text_classic_mode">"In classic mode You have 30 seconds to achieve the best score you can. \nEvery wrong hit takes You a point.\nHave fun playing! "</string>
+    <string name="text_skill_mode">"In skill mode You are playing to the limit.\nOn beginning You have 3 lives which you can lose by pressing the wrong button.\nHave fun playing! "</string>
+    <string name="text_time_mode">"In time mode You are limited by time so be quick in pressing. \nMissed buttons are not taking Your points.\nHave fun playing!"</string>
+    <string name="ratingMessage">Thank You for using our app!</string>
+    <string name="appName">Catch that tile</string>
+</resources>
